@@ -10,11 +10,11 @@ Matlab Plot             |  Simscape
 :-------------------------:|:-------------------------:
 <img src="https://github.com/AlaaAlassi/IIWA-Robot-Simulation/blob/master/Assets/Singularities/ShoulderSing/SigShoulderX.gif?raw=true" width="500">  |   <img src="https://github.com/AlaaAlassi/IIWA-Robot-Simulation/blob/master/Assets/Singularities/ShoulderSing/SigShoulderXR.gif" width="500">
 
-So if you want to control the robot near a singularly just avoid to move from -x to x while you have a zero y component or from -y t0 y with a zero x as illustrated below. 
+So if you want to control the robot near a singularly, just avoid to move this vector from -x to x while you have a zero y component or or vice versa as illustrated below. 
 
 
 Matlab Plot              |  Simscape
 :-------------------------:|:-------------------------:
 <img src="https://github.com/AlaaAlassi/IIWA-Robot-Simulation/blob/master/Assets/Singularities/ShoulderSing/SigShoulderXY.gif?raw=true" width="500">  |  <img src="https://github.com/AlaaAlassi/IIWA-Robot-Simulation/blob/master/Assets/Singularities/ShoulderSing/SigShoulderXR3.gif" width="500">
 
-This is valid only for simulation, I tried to control the real robot near this singularity, the robot was highly unstable and vibrated with a large amplitude so I ended up pressing the E-Stop, Chek This [Vedio](https://youtu.be/-SAkOiPgs9U). In this experiment I was using the inverse kinematics provided by KUKA's software (Sunrise.OS). It looks like this behavior is due to a singularity in the solution. 
+This is valid only for simulation, I tried to control the real robot near this singularity (I didn't know that it is a singularity), the robot was highly unstable and vibrated with a large amplitude so I ended up pressing the E-Stop, check this [video](https://youtu.be/-SAkOiPgs9U). In this experiment, I was using the inverse kinematics provided by KUKA's software (Sunrise.OS). It looks like this behavior is due to a singularity in the solution. 
