@@ -10,7 +10,7 @@ Matlab Plot             |  Simscape
 :-------------------------:|:-------------------------:
 <img src="https://github.com/AlaaAlassi/IIWA-Robot-Simulation/blob/master/Assets/Singularities/ShoulderSing/SigShoulderX.gif?raw=true" width="500">  |   <img src="https://github.com/AlaaAlassi/IIWA-Robot-Simulation/blob/master/Assets/Singularities/ShoulderSing/SigShoulderXR.gif" width="500">
 
-So if you want to control the robot near a sigulatry just avoid to move from -x to x while you have a zero y component or from -y t0 y a zero x as illustrated below. 
+So if you want to control the robot near a singularly just avoid to move from -x to x while you have a zero y component or from -y t0 y with a zero x as illustrated below. 
 
 
 Matlab Plot              |  Simscape
