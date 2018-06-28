@@ -8,7 +8,7 @@ For this kinematic solution, there are two serious singular configurations that 
 
 Matlab Plot             |  Simscape
 :-------------------------:|:-------------------------:
-<img src="https://github.com/AlaaAlassi/Singularity-Analysis/blob/master/Assets/Singularities/ShoulderSing/SigShoulderX.gif?raw=true" width="500">  |   <img src="https://github.com/AlaaAlassi/IIWA-Robot-Simulation/blob/master/Assets/Singularities/ShoulderSing/SigShoulderXR.gif" width="500">
+<img src="https://github.com/AlaaAlassi/Singularity-Analysis/blob/master/Assets/Singularities/ShoulderSing/SigShoulderX.gif?raw=true" width="500">  |   <img src="https://github.com/AlaaAlassi/Singularity-Analysis/blob/master/Assets/Singularities/ShoulderSing/SigShoulderXR.gif?raw=true" width="500">
 
 So if you want to control the robot near a singularly, just avoid to move this vector from -x to x while you have a zero y component or or vice versa as illustrated below. 
 
